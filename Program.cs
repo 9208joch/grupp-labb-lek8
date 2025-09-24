@@ -53,9 +53,9 @@ public class GenericList<T>
         }
     }
 
-    //comment from Jonathan
     // Kommentar NK på rad 57
 
+    //comment from Jonathan
 
 
 }
