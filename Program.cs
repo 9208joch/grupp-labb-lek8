@@ -53,7 +53,7 @@ public class GenericList<T>
         }
     }
 
-
+    // en komentar
     // Kommentar NK på rad 57
 
 
