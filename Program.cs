@@ -53,10 +53,13 @@ public class GenericList<T>
         }
     }
 
-    // en komentar
     // Kommentar NK på rad 57
 
     //Kommentar från mig
+    // iiii
+
+    //comment from Jonathan
+
 
 }
 //Comment From jonathan
