@@ -13,7 +13,7 @@ public class GenericList<T>
 
     public int Count => _Count;
 
-    
+
     public void Add(T item)
     {
         if (_Count == _item.Length)
@@ -25,29 +25,31 @@ public class GenericList<T>
     }
     public void Clear()
     {
-        for (int i=0; i < _Count; i++)
+        for (int i = 0; i < _Count; i++)
         {
-            _item[i]=default(T);
+            _item[i] = default(T);
         }
         _Count = 0;
     }
     private void Resize()
     {
-    int newCapacity=_item.Length*2;
-        T[] newArray = new T[newCapacity];  
+        int newCapacity = _item.Length * 2;
+        T[] newArray = new T[newCapacity];
 
-        for (int i=0;i<_item.Length; i++)
+        for (int i = 0; i < _item.Length; i++)
         {
-            newArray[i] = _item[i]; 
+            newArray[i] = _item[i];
 
         }
         _item = newArray;
     }
     public T this[int index]
-    { get
-        { if (index <0 || index >= _Count)
+    {
+        get
+        {
+            if (index < 0 || index >= _Count)
                 throw new ArgumentOutOfRangeException("index");
-        return _item[index];   
+            return _item[index];
         }
     }
 
@@ -57,3 +59,4 @@ public class GenericList<T>
 
 
 }
+//Comment From jonathan
