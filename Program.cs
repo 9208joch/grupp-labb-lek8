@@ -17,11 +17,12 @@ public class GenericList<T>
     public void Add(T item)
     {
         if (_Count == _item.Length)
+        {
             Resize();
 
-        _item[_Count++] = item;
-        //_item[_Count] = item;
-        //_Count++;
+            _item[_Count++] = item;
+
+        }
     }
     public void Clear()
     {
