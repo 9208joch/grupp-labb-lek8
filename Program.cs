@@ -1,6 +1,7 @@
 ﻿
 public class GenericList<T>
 {
+    //tjeeeeena
     private T[] _item;
     private int _Count;
 
