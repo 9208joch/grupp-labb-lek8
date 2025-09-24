@@ -1,5 +1,5 @@
 ﻿
-public class GenericList<T>         //Comment From Jonathan
+public class GenericList<T>
 {
     private T[] _item;
     private int _Count;
