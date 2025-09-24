@@ -16,13 +16,12 @@ public class GenericList<T>
 
     public void Add(T item)
     {
-        if (_Count == _item.Length)
+        if (_Count == _item.Length) // hadde för många måsvingar
         {
             Resize();
-
-            _item[_Count++] = item;
-
         }
+
+        _item[_Count++] = item;
     }
     public void Clear()
     {
